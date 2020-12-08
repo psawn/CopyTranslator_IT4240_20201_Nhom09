@@ -4,7 +4,7 @@
     <v-row
       v-else-if="layoutType === 'horizontal'"
       class="maxNoPad"
-      style="margin: 0px;"
+      style="margin: 0px"
     >
       <v-col class="areaWarpper">
         <textarea
@@ -33,7 +33,7 @@
       </v-col>
     </v-row>
     <v-col v-else class="maxNoPad">
-      <div class="areaWarpper" style="height: 50%;" @keyup.ctrl.13="translate">
+      <div class="areaWarpper" style="height: 50%" @keyup.ctrl.13="translate">
         <textarea
           v-bind:style="fontStyle"
           @keyup.ctrl.13="translate"
@@ -45,7 +45,7 @@
           v-on:contextmenu="openMenu('contrastContext')"
         ></textarea>
       </div>
-      <div class="areaWarpper" style="height: 50%;">
+      <div class="areaWarpper" style="height: 50%">
         <CoTextArea
           class="vArea"
           v-bind:style="fontStyle"

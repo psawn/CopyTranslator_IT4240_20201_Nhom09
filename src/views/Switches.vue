@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="text-align: left;">
+    <div style="text-align: left">
       <Action
         v-for="actionId in actionKeys"
         :identifier="actionId"

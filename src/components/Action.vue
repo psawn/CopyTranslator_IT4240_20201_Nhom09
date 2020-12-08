@@ -7,18 +7,18 @@
       :label="trans[action.id]"
     ></v-switch>
     <div v-else-if="action.type === 'submenu'">
-      <p style="margin: 0px;">{{ trans[identifier] }}</p>
+      <p style="margin: 0px">{{ trans[identifier] }}</p>
       <v-select
         v-model="command"
         :items="action.submenu"
         item-text="label"
         item-value="id"
-        style="margin: 0px; padding: 0px;"
+        style="margin: 0px; padding: 0px"
       >
       </v-select>
     </div>
     <div v-else-if="action.type === 'normal'">
-      <v-btn @click="callback(action.id)" width="100%" style="margin-top: 4px;">
+      <v-btn @click="callback(action.id)" width="100%" style="margin-top: 4px">
         {{ trans[action.id] }}
       </v-btn>
     </div>

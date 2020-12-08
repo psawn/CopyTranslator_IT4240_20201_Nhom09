@@ -12,7 +12,7 @@
         v-model="config[key]"
         :items="domains"
         @change="sync(key)"
-        style="margin: 0px; padding: 0px;"
+        style="margin: 0px; padding: 0px"
       >
       </v-select>
     </div>

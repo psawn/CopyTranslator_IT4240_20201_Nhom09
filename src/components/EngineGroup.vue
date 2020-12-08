@@ -4,7 +4,7 @@
     <v-select
       v-model="value"
       :items="translatorTypes"
-      style="margin: 0px; padding: 0px;"
+      style="margin: 0px; padding: 0px"
       multiple
       chips
     >

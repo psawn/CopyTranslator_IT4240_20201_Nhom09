@@ -3,7 +3,7 @@
     <v-app>
       <v-app-bar app color="#8E24AA" dark dense height="40px">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-spacer style="height: 100%; width: 100%;">
+        <v-spacer style="height: 100%; width: 100%">
           <div
             style="
               -webkit-app-region: drag;
